@@ -1,0 +1,15 @@
+body {
+}
+
+.container {
+  height: 200px;
+  background-color: skyblue;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.box {
+  margin-top: 50px;
+  height: 200px;
+  background-color: rgb(152, 233, 45);
+}

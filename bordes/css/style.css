@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+.box {
+  height: 200px;
+  width: 400px;
+  background-color: crimson;
+  /* border: 3px solid blue;
+  border-width: 5px;
+  border-style: groove;
+  border-color: cornflowerblue;
+  border-top-left-radius: 10px; */
+
+  /* box-shadow: x y blur spread color ; */
+  box-shadow: 10px 10px 20px 20px rgb(107, 106, 106);
+}
+
+.boxe {
+  height: 200px;
+  width: 200px;
+  background: #000;
+  border-radius: 50%;
+}
+
+img {
+  /* box-shadow: 10px 10px; */
+  filter: drop-shadow(5px 5px 5px red);
+}
