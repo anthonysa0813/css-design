@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.container {
+  /* max-width: 100%; */
+  /* min-width: 80%; */
+  width: 100%;
+  border: 4px solid brown;
+}
+
+.box {
+  width: 500px;
+  height: 200px;
+  background: rgb(38, 37, 37);
+  display: inline-block;
+}
+
+.box:nth-of-type(2) {
+  background: rgb(241, 69, 69);
+}
+.box:nth-of-type(3) {
+  background: rgb(74, 130, 235);
+}
+.box:nth-of-type(4) {
+  background: rgb(233, 60, 213);
+}
+
+.header {
+  width: 50%;
+  height: 20vh;
+  background-color: cadetblue;
+}
+
+.header:hover {
+  background: rgb(61, 60, 60);
+}
+
+.header:active {
+  background: red;
+}
+
+/* nav {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+} */
+
+/* va a aplicar a los enlaces */
+a {
+  color: yellow;
+}
+
+/* va a aplicar los que no hayan aplicados */
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: rgb(74, 130, 235);
+}
