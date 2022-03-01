@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 90%;
+  margin: auto;
+  background: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
