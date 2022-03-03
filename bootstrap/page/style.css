@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.carouselContainer {
+  height: 50vh;
+}
+
+.carouselContainer img {
+  height: 50vh;
+  object-fit: cover;
+  filter: grayscale(60%);
+}
+
+main {
+  margin-top: 150px;
+}
+
+.titles {
+  font-size: 3rem !important;
+}
+
+.info {
+  height: 50vh;
+}
+
+form {
+  margin-bottom: 150px;
+}

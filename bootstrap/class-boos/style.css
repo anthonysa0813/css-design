@@ -1,0 +1,27 @@
+/* para pantallas desde con ancho de 320px*/
+/* @media screen and (min-width: 320px) {
+  
+
+  body {
+    background: #000;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: rgb(248, 91, 91);
+  }
+}
+*/
+.carousel img {
+  height: 50vh;
+  object-fit: cover;
+  filter: grayscale(50%);
+}
