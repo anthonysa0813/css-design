@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 300vh;
+  position: absolute;
+}
+
+h1 {
+  /* display: flex;
+  justify-content: space-between; */
+  /* height: 100px; */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.section:nth-of-type(1) {
+  height: 100vh;
+}
+
+/* .text {
+  margin-top: 150px;
+} */
+nav {
+  height: inherit;
+}
+
+nav ul {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  margin-inline: 1rem;
+}
+
+.debug {
+  border: 3px solid red;
+}
